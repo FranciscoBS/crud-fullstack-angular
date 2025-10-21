@@ -1,0 +1,62 @@
+<!-- <h2>Añadir empleado</h2> -->
+
+
+<!-- <div class="container" style="width:50%">   
+<form>
+  <div class="mb-3">
+    <label for="inputNombre" class="form-label">Nombre(s)</label>
+    <input [(ngModel)] = "nombre" type="text" class="form-control" id="inputNombre" name="nombre" >
+  </div>
+    <div class="mb-3" >
+        <label for="inputApellido" class="form-label">Apellido(s)</label>
+        <input [(ngModel)] = "apellido"  type="text" class="form-control" id="inputApellido" name="apellido" >
+    </div>
+    <div class="mb-3">
+        <label for="inputEmail" class="form-label">Correo</label>
+        <input  [(ngModel)] = "email" type="email" class="form-control" id="inputEmail" name = "email" >  
+    </div>
+  <button type="submit" class="btn btn-primary" (click)="anadirEmpleado()">Crear empleado</button>
+</form>
+</div>
+ -->
+
+<div class="container" style="display: flex; flex-direction: column;">
+  <div style="display: flex; text-align: center; justify-content: center;">
+    <div style="margin: 1%;">
+      <button mat-raised-button color="primary" routerLink="/empleados">Regresar</button>
+    </div>
+    <div style="display:flex;margin: 1%;">
+      <mat-card-title>
+        {{ esModoEdicion ? 'Editar Empleado' : 'Añadir Empleado' }}
+      </mat-card-title>
+    </div>
+  </div>
+  <mat-card class="mi-formulario-card">
+    <mat-card-content>
+      <form>
+        <div style="display: flex; flex-direction: column; gap: 2%; width: 50%; margin: auto;">
+          <mat-form-field>
+            <mat-label>Nombre</mat-label>
+            <input matInput [(ngModel)]="nombre" name="nombre" type="text">
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Apellido</mat-label>
+            <input matInput [(ngModel)]="apellido" name="apellido" type="text">
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput [(ngModel)]="email" name="email" type="email">
+          </mat-form-field>
+        </div>
+      </form>
+    </mat-card-content>
+
+    <div style="display: flex; justify-content: center; margin-bottom: 5%;">
+      <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="anadirEmpleado()">
+          {{esModoEdicion ? 'Editar' : 'Crear empleado'}}
+        </button>
+      </mat-card-actions>
+    </div>
+  </mat-card>
+</div>
