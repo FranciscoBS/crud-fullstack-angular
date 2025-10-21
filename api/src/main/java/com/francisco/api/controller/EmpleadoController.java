@@ -1,4 +1,4 @@
-package com.francisco.crud_fullstack_angular.controller;
+package com.francisco.api.controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.francisco.crud_fullstack_angular.entity.Empleado;
-import com.francisco.crud_fullstack_angular.service.EmpleadoService;
+import com.francisco.api.entity.Empleado;
+import com.francisco.api.service.EmpleadoService;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

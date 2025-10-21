@@ -1,4 +1,4 @@
-package com.francisco.crud_fullstack_angular.exception;
+package com.francisco.api.exception;
 
 
 public class ResourceNotFoundException extends RuntimeException {

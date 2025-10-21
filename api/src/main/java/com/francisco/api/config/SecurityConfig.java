@@ -1,4 +1,4 @@
-package com.francisco.crud_fullstack_angular.config;
+package com.francisco.api.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

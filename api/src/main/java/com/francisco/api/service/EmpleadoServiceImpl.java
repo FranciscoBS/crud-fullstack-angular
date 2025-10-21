@@ -1,12 +1,12 @@
-package com.francisco.crud_fullstack_angular.service;
+package com.francisco.api.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.francisco.crud_fullstack_angular.entity.Empleado;
-import com.francisco.crud_fullstack_angular.exception.ResourceNotFoundException;
-import com.francisco.crud_fullstack_angular.repository.EmpleadoRepository;
+import com.francisco.api.entity.Empleado;
+import com.francisco.api.exception.ResourceNotFoundException;
+import com.francisco.api.repository.EmpleadoRepository;
 
 @Service
 public class EmpleadoServiceImpl implements EmpleadoService {

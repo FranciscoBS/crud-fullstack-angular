@@ -1,4 +1,4 @@
-package com.francisco.crud_fullstack_angular;
+package com.francisco.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

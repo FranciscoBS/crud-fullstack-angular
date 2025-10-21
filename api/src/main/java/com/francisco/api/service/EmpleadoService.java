@@ -1,6 +1,6 @@
-package com.francisco.crud_fullstack_angular.service;
+package com.francisco.api.service;
 
-import com.francisco.crud_fullstack_angular.entity.Empleado;
+import com.francisco.api.entity.Empleado;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.francisco.crud_fullstack_angular.entity;
+package com.francisco.api.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -62,7 +62,4 @@ public class Empleado {
         this.email = email;
     }
 
-    
-
-         
 }
